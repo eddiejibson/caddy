@@ -35,6 +35,8 @@ import (
 	"github.com/caddyserver/caddy/v2/caddyconfig"
 	"github.com/caddyserver/certmagic"
 	"go.uber.org/zap"
+	_ "github.com/caddyserver/caddy/v2/modules/standard"
+	_ "github.com/caddyserver/tls.dns/providers/cloudflare"
 )
 
 func init() {
